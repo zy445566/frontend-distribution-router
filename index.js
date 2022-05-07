@@ -1,0 +1,1 @@
+export {genRanderFunction, pathChangeNotify} from './lib/rander'

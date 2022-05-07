@@ -1,0 +1,35 @@
+{
+  "name": "frontend-distribution-router",
+  "version": "1.0.0",
+  "description": "Non-centralized router, where routes are configured in each component",
+  "module": "index.js",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zy445566/frontend-distribution-router.git"
+  },
+  "keywords": [
+    "router",
+    "distribution",
+    "component",
+    "react",
+    "vue",
+    "svelte"
+  ],
+  "author": "zy445566",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zy445566/frontend-distribution-router/issues"
+  },
+  "homepage": "https://github.com/zy445566/frontend-distribution-router#readme",
+  "dependencies": {
+    "path-to-regexp": "^6.2.1"
+  }
+}
