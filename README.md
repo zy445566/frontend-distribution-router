@@ -1,2 +1,2 @@
 # frontend-distribution-router
-Non-centralized routing, where routes are configured in each component
+Non-centralized router, where routes are configured in each component
