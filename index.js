@@ -1,1 +1,1 @@
-export {genRanderFunction, pathChangeNotify} from './lib/rander'
+export {genRanderFunction, pathChangeNotify} from './lib/rander.js'
