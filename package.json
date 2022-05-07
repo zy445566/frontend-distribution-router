@@ -1,6 +1,6 @@
 {
   "name": "frontend-distribution-router",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Non-centralized router, where routes are configured in each component",
   "module": "index.js",
   "main": "index.js",

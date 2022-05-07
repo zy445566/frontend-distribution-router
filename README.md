@@ -1,6 +1,14 @@
 # frontend-distribution-router
 Non-centralized router, where routes are configured in each component.
 the better way to config router!
+
+# install
+```sh
+npm install frontend-distribution-router
+# OR
+yarn add frontend-distribution-router
+```
+
 # use 
 ### react
 example.js:
