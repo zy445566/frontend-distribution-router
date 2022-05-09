@@ -71,6 +71,7 @@ v-for="component in componentList"
 v-bind:is="component" />
 ```
 ```js
+import { markRaw } from 'vue'
 import * as exampleModule from './example.vue'
 import {genRanderFunction, pathChangeNotify} from 'frontend-distribution-router'
 export default {
@@ -85,6 +86,12 @@ export default {
             mode:'hash',
             moduleList:[exampleModule],
             defaultModule:exampleModule,
+            beforePush:({
+                module,
+                componentKey
+            })=>{
+                module[componentKey] = markRaw(module[componentKey])
+            }
         })
         this.componentList = randerFunction()
         pathChangeNotify({mode:'hash',callback:()=>{
